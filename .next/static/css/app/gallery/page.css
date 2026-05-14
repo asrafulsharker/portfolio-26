@@ -1,0 +1,148 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/components/layout/Navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_nav___WITp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--color-nav-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.Navbar_scrolled__nobxR {
+  box-shadow: var(--shadow-nav);
+  background: rgba(255, 255, 255, 0.97);
+}
+
+.Navbar_inner__Zc9of {
+  display: flex;
+  align-items: center;
+  height: 68px;
+  gap: 32px;
+}
+
+.Navbar_logo__Am5h2 {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.Navbar_links__c080l {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+  margin: 0 auto;
+}
+
+.Navbar_link__wMX_K {
+  position: relative;
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  border-radius: var(--radius-full);
+  transition: color 0.2s ease;
+}
+
+.Navbar_link__wMX_K:hover {
+  color: var(--color-primary);
+}
+
+.Navbar_active__YMfDB {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.Navbar_underline__3qtR9 {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 2px;
+  background: var(--color-primary-light);
+  border-radius: 2px;
+}
+
+.Navbar_icons__f7ZSq {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.Navbar_iconBtn__uyYD0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  color: var(--color-text-muted);
+  transition: background 0.2s, color 0.2s;
+}
+
+.Navbar_iconBtn__uyYD0:hover {
+  background: var(--color-badge-bg);
+  color: var(--color-primary);
+}
+
+/* Hamburger */
+.Navbar_hamburger__HA1m5 {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+  margin-left: auto;
+}
+
+.Navbar_bar__vPDRn {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+}
+
+.Navbar_bar1Open__JWVMa { transform: translateY(7px) rotate(45deg); }
+.Navbar_bar2Open__Rwn0P { opacity: 0; }
+.Navbar_bar3Open__3aN3r { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile menu */
+.Navbar_mobileMenu__XFNzn {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px 24px;
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  animation: Navbar_fadeIn__Q2B5n 0.2s ease;
+}
+
+.Navbar_mobileLink___PlsO {
+  padding: 12px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-border);
+  transition: color 0.2s;
+}
+
+.Navbar_mobileLink___PlsO:last-child { border-bottom: none; }
+.Navbar_mobileLink___PlsO:hover { color: var(--color-primary); }
+
+@media (max-width: 768px) {
+  .Navbar_links__c080l, .Navbar_icons__f7ZSq { display: none; }
+  .Navbar_hamburger__HA1m5 { display: flex; }
+}
+
