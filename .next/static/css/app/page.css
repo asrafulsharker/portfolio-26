@@ -685,7 +685,7 @@
 
 /* ── Staggered entrance animation ── */
 .Hero_animItem__ylNBy {
-  opacity: 0;
+  /* opacity: 0; */
   transform: translateY(28px);
 }
 .Hero_contentVisible__a_Szu .Hero_animItem__ylNBy {

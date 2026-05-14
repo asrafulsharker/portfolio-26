@@ -82,7 +82,7 @@
 
 /* ── Staggered entrance animation ── */
 .animItem {
-  opacity: 0;
+  /* opacity: 0; */
   transform: translateY(28px);
 }
 .contentVisible .animItem {

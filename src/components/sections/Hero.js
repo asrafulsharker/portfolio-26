@@ -66,7 +66,6 @@ function capitalize(str) {
 function ProfileCard({ data }) {
   return (
     <div className={styles.cardOuter}>
-      <img src="https://asrafulme.netlify.app/static/media/gg.3cf6bcfde6f8d910c0f4.jpg" alt="Asraful Sharker" className={styles.cardBg} aria-hidden />
       {/* Orbit rings */}
       <div className={styles.ring1} />
       <div className={styles.ring2} />
@@ -92,7 +91,6 @@ function ProfileCard({ data }) {
           <div className={styles.floatBadgeNum}>Open</div>
           <div className={styles.floatBadgeLabel}>to Collab</div>
         </div>
-        
       </div>
 
       {/* Main card */}
@@ -100,8 +98,7 @@ function ProfileCard({ data }) {
         {/* Photo area */}
         <div className={styles.photoWrap}>
           <img
-            src="https://asrafulme.netlify.app/static/media/gg.3cf6bcfde6f8d910c0f4.jpg"
-            alt="Asraful Sharker"
+              src={ProfileImg.src || ProfileImg}            alt="Asraful Sharker"
             className={styles.photo}
             onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex'; }}
           />
