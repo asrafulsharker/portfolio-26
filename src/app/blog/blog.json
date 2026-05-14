@@ -1,0 +1,125 @@
+{
+  "hero": {
+    "tag": "Life & Travel",
+    "title": "Chasing the Azure Horizon: Lessons from the Mediterranean",
+    "excerpt": "Md. Asraful Sharker Nirob reflects on a summer spent between the ancient cobblestones of Italy and the sapphire waters of the Greek Isles.",
+    "cta": "Read Feature Story →",
+    "ctaHref": "/blog/azure-horizon",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80"
+  },
+  "categories": ["Latest", "Lifestyle", "Travel", "New Science", "Personal Reflections"],
+  "sortOptions": ["Sort by: New", "Sort by: Popular", "Sort by: Oldest"],
+  "author": {
+    "name": "Md. Asraful Sharker Nirob",
+    "role": "AI Researcher & Writer",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80",
+    "bio": "Beyond the algorithm and data sets is a world waiting to be explored through a different lens. This space is my canvas for the stories that don't fit into academic journals—travel, life, and the nuances of the world around us.",
+    "socials": [
+      { "label": "Scholar", "href": "#", "icon": "scholar" },
+      { "label": "GitHub",  "href": "#", "icon": "github"  },
+      { "label": "X",       "href": "#", "icon": "x"       }
+    ]
+  },
+  "newsletter": {
+    "heading": "Stay in the Loop",
+    "subtext": "Weekly insights on lifestyle, travel, and ideas that matter.",
+    "placeholder": "email address",
+    "cta": "Subscribe Now"
+  },
+  "featured": {
+    "id": "post-1",
+    "tag": "Lifestyle",
+    "title": "The Art of Deliberate Living in a Hyper-Connected World",
+    "excerpt": "From finding silence in the digital noise that dominates my day, my approach to both life and rigorous academic research.",
+    "date": "October 12, 2024",
+    "readTime": "7 min read",
+    "href": "/blog/deliberate-living",
+    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
+  },
+  "grid": [
+    {
+      "id": "post-2",
+      "tag": "New Science",
+      "title": "Decoding Global Market Shifts",
+      "excerpt": "Deep dive into the emerging economic trends and their implications for the technology sector.",
+      "date": "October 08, 2024",
+      "readTime": "5 min read",
+      "href": "/blog/market-shifts",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80"
+    },
+    {
+      "id": "post-3",
+      "tag": "Travel",
+      "title": "Beyond the Tourist Trail",
+      "excerpt": "Discovering the hidden gem of the Amalfi Coast that aren't in any guidebook.",
+      "date": "October 05, 2024",
+      "readTime": "6 min read",
+      "href": "/blog/tourist-trail",
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=600&q=80"
+    },
+    {
+      "id": "post-4",
+      "tag": "Personal Reflections",
+      "title": "The Philosophy of Minimalism in Modern AI",
+      "excerpt": "Less is more — or is it? Examining the paradox of simplicity in complex systems.",
+      "date": "October 01, 2024",
+      "readTime": "4 min read",
+      "href": "/blog/minimalism-ai",
+      "image": null
+    },
+    {
+      "id": "post-5",
+      "tag": "Lifestyle",
+      "title": "Why I Still Kept a Physical Journal on Flights",
+      "excerpt": "There's something irreplaceable about pen and paper at 35,000 feet.",
+      "date": "September 28, 2024",
+      "readTime": "3 min read",
+      "href": "/blog/journal-flights",
+      "image": null
+    },
+    {
+      "id": "post-6",
+      "tag": "New Science",
+      "title": "Analyzing the News: A Researcher's Framework",
+      "excerpt": "How I read media critically — and what I look for between the lines.",
+      "date": "September 22, 2024",
+      "readTime": "8 min read",
+      "href": "/blog/news-framework",
+      "image": null
+    }
+  ],
+  "archive": [
+    {
+      "id": "arc-1",
+      "tag": "Travel",
+      "title": "Solitude at 3,000 Meters",
+      "date": "Aug 2024",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&q=80",
+      "href": "/blog/solitude-3000"
+    },
+    {
+      "id": "arc-2",
+      "tag": "New Science",
+      "title": "The Future of Remote Research Connections",
+      "date": "Jul 2024",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80",
+      "href": "/blog/remote-research"
+    },
+    {
+      "id": "arc-3",
+      "tag": "Lifestyle",
+      "title": "Late Nights and City Lights: A Reflection",
+      "date": "Jun 2024",
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80",
+      "href": "/blog/city-lights"
+    },
+    {
+      "id": "arc-4",
+      "tag": "Personal Reflections",
+      "title": "Why Analog Form Still Matter",
+      "date": "May 2024",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&q=80",
+      "href": "/blog/analog-form"
+    }
+  ]
+}

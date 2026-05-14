@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "siteTitle": "Asraful Sharker",
+    "siteDescription": "AI Researcher & Frontend Developer Portfolio",
+    "favicon": "/favicon.ico"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#1a2f6b",
+      "primaryLight": "#2563eb",
+      "accent": "#3b82f6",
+      "accentSoft": "#dbeafe",
+      "background": "#f8faff",
+      "backgroundAlt": "#eef2ff",
+      "surface": "#ffffff",
+      "surfaceHover": "#f1f5ff",
+      "text": "#0f172a",
+      "textMuted": "#64748b",
+      "textLight": "#94a3b8",
+      "border": "#e2e8f0",
+      "navBg": "rgba(255,255,255,0.92)",
+      "badgeBg": "#eff6ff",
+      "badgeText": "#1d4ed8",
+      "cardDark": "#1a2f6b",
+      "cardDarkText": "#ffffff"
+    },
+    "fonts": {
+      "heading": "'Sora', sans-serif",
+      "body": "'DM Sans', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "fontImport": "https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap",
+    "borderRadius": {
+      "sm": "8px",
+      "md": "14px",
+      "lg": "22px",
+      "xl": "32px",
+      "full": "9999px"
+    },
+    "shadows": {
+      "card": "0 4px 24px rgba(26,47,107,0.08)",
+      "cardHover": "0 12px 40px rgba(26,47,107,0.16)",
+      "nav": "0 2px 20px rgba(26,47,107,0.08)"
+    },
+    "spacing": {
+      "sectionPadding": "96px 0",
+      "containerMax": "1140px"
+    }
+  },
+  "nav": {
+    "logo": "Asraful Sharker",
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Research", "href": "#research" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Insights", "href": "#insights" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "showSearch": true,
+    "showThemeToggle": true
+  },
+  "hero": {
+    "badge": {
+      "dot": true,
+      "text": "Open to Research Collaborations"
+    },
+    "titleLines": [
+      { "text": "AI Researcher |", "colored": false },
+      { "text": "Research Assistant |", "colored": true },
+      { "text": "Frontend Developer", "colored": false }
+    ],
+    "description": "Bridging the gap between academic rigor and modern web engineering. Specialized in Deep Learning, Computer Vision, and creating immersive digital experiences.",
+    "cta": [
+      {
+        "label": "View Publications",
+        "href": "#research",
+        "variant": "primary"
+      },
+      {
+        "label": "Download CV",
+        "href": "/cv.pdf",
+        "variant": "outline"
+      }
+    ],
+    "cvPreview": {
+      "show": true,
+      "altText": "Asraful Sharker CV Preview"
+    }
+  },
+  "competencies": {
+    "sectionTitle": "Core Competencies",
+    "cards": [
+      {
+        "id": "research",
+        "variant": "light",
+        "icon": "brain",
+        "title": "Research Focus",
+        "description": "Dedicated to advancing Artificial Intelligence through rigorous inquiry into neural architectures, natural language processing, and ethical AI development.",
+        "tags": ["Computer Vision", "NLP", "Data Mining", "Generative Models"]
+      },
+      {
+        "id": "stack",
+        "variant": "dark",
+        "icon": "code",
+        "title": "Technical Stack",
+        "chips": [
+          { "icon": "python", "label": "Python" },
+          { "icon": "pytorch", "label": "PyTorch" },
+          { "icon": "tensorflow", "label": "TensorFlow" },
+          { "icon": "react", "label": "React" },
+          { "icon": "postgres", "label": "PostgreSQL" },
+          { "icon": "aws", "label": "AWS" },
+          { "icon": "git", "label": "Git" }
+        ]
+      },
+      {
+        "id": "publications",
+        "variant": "light",
+        "icon": "book",
+        "title": "Publications",
+        "count": "12+",
+        "countLabel": "Peer Reviewed",
+        "venuesLabel": "RECENT VENUES",
+        "venues": ["ICML", "CVPR", "NeurIPS"]
+      },
+      {
+        "id": "projects",
+        "variant": "light",
+        "icon": "robot",
+        "title": "Industrial Projects",
+        "description": "Building production-grade AI solutions that solve real-world problems with high scalability and performance."
+      }
+    ]
+  },
+  "publications": {
+    "sectionTitle": "Featured Publications",
+    "sectionSubtitle": "Key contributions to neural architecture and deep learning research.",
+    "items": [
+      {
+        "id": "pub1",
+        "type": "Journal Paper",
+        "year": "2023",
+        "title": "EDDNet30: Efficient Dense Dilation Network for High-Resolution Imagery",
+        "description": "Introduces a novel dilated convolution strategy for maintaining spatial context without increasing computational overhead.",
+        "links": [
+          { "label": "PDF", "href": "#", "icon": "download" },
+          { "label": "Code", "href": "#", "icon": "code" }
+        ]
+      },
+      {
+        "id": "pub2",
+        "type": "Conference",
+        "year": "2022",
+        "title": "COLD12: Contrastive Learning for Domain Adaptation in Medical Imaging",
+        "description": "A framework for robust feature alignment across heterogeneous datasets in low-resource medical environments.",
+        "links": [
+          { "label": "Cite", "href": "#", "icon": "quote" },
+          { "label": "Poster", "href": "#", "icon": "image" }
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "sectionTitle": "Research Visuals",
+    "sectionSubtitle": "Where science meets creative expression through AI generation.",
+    "viewAllLabel": "View Full Gallery",
+    "viewAllHref": "/gallery",
+    "items": [
+      {
+        "id": "gal1",
+        "title": "Latent Space Exploration #01",
+        "category": "Stable Diffusion / VAE",
+        "color": "#0a1628",
+        "accentColor": "#00d4ff",
+        "pattern": "waves"
+      },
+      {
+        "id": "gal2",
+        "title": "Hardware Acceleration Study",
+        "category": "Architecture Render",
+        "color": "#0d1f0d",
+        "accentColor": "#00ff88",
+        "pattern": "grid"
+      },
+      {
+        "id": "gal3",
+        "title": "Manifold Visualization",
+        "category": "Data Art",
+        "color": "#1a0a2e",
+        "accentColor": "#c084fc",
+        "pattern": "ribbons"
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Get In Touch",
+    "sectionSubtitle": "Let's collaborate on research or build something amazing together.",
+    "email": "asraful@example.com",
+    "social": [
+      { "platform": "GitHub", "href": "#", "icon": "github" },
+      { "platform": "LinkedIn", "href": "#", "icon": "linkedin" },
+      { "platform": "Google Scholar", "href": "#", "icon": "scholar" },
+      { "platform": "Twitter", "href": "#", "icon": "twitter" }
+    ]
+  }
+}
