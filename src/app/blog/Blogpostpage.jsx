@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import blogData from './blog.json'; // adjust path as needed
-import styles from './BlogPostPage.module.css';
+import styles from './Blogpostpage.module.css';
 import NavForFullPage from '../../components/layout/NavForFullPage';
 
 // ── Data helpers ──────────────────────────────────────────────────────────────
