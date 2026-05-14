@@ -1,125 +1,467 @@
 {
-  "hero": {
-    "tag": "Life & Travel",
-    "title": "Chasing the Azure Horizon: Lessons from the Mediterranean",
-    "excerpt": "Md. Asraful Sharker Nirob reflects on a summer spent between the ancient cobblestones of Italy and the sapphire waters of the Greek Isles.",
-    "cta": "Read Feature Story →",
-    "ctaHref": "/blog/azure-horizon",
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80"
+  "site": {
+    "name": "Asraful Sharker Nirob",
+    "tagline": "AI Researcher & Writer",
+    "baseUrl": "https://asrafulsharker.ai"
   },
-  "categories": ["Latest", "Lifestyle", "Travel", "New Science", "Personal Reflections"],
-  "sortOptions": ["Sort by: New", "Sort by: Popular", "Sort by: Oldest"],
-  "author": {
-    "name": "Md. Asraful Sharker Nirob",
-    "role": "AI Researcher & Writer",
-    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80",
-    "bio": "Beyond the algorithm and data sets is a world waiting to be explored through a different lens. This space is my canvas for the stories that don't fit into academic journals—travel, life, and the nuances of the world around us.",
-    "socials": [
-      { "label": "Scholar", "href": "#", "icon": "scholar" },
-      { "label": "GitHub",  "href": "#", "icon": "github"  },
-      { "label": "X",       "href": "#", "icon": "x"       }
-    ]
+  "blogPage": {
+    "seo": {
+      "title": "Blog — Asraful Sharker Nirob",
+      "description": "Thoughts on AI research, travel, lifestyle, and the nuances of living a deliberate life.",
+      "keywords": ["AI research", "travel blog", "lifestyle", "science writing", "personal reflections"],
+      "ogImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+    },
+    "hero": {
+      "tag": "Life & Travel",
+      "title": "Chasing the Azure Horizon: Lessons from the Mediterranean",
+      "excerpt": "Md. Asraful Sharker Nirob reflects on a summer spent between the ancient cobblestones of Italy and the sapphire waters of the Greek Isles.",
+      "cta": "Read Feature Story",
+      "ctaHref": "/blog/azure-horizon",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80"
+    },
+    "categories": ["Latest", "Lifestyle", "Travel", "New Science", "Personal Reflections"],
+    "author": {
+      "name": "Md. Asraful Sharker Nirob",
+      "role": "AI Researcher & Writer",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80",
+      "bio": "Beyond the algorithm and data sets is a world waiting to be explored through a different lens. This space is my canvas for the stories that don't fit into academic journals—travel, life, and the nuances of the world around us.",
+      "socials": [
+        { "label": "Scholar",  "href": "#", "icon": "scholar" },
+        { "label": "GitHub",   "href": "#", "icon": "github"  },
+        { "label": "X",        "href": "#", "icon": "x"       }
+      ]
+    },
+    "newsletter": {
+      "heading": "Stay in the Loop",
+      "subtext": "Weekly insights on lifestyle, travel, and ideas that matter.",
+      "placeholder": "email address",
+      "cta": "Subscribe Now"
+    }
   },
-  "newsletter": {
-    "heading": "Stay in the Loop",
-    "subtext": "Weekly insights on lifestyle, travel, and ideas that matter.",
-    "placeholder": "email address",
-    "cta": "Subscribe Now"
-  },
-  "featured": {
-    "id": "post-1",
-    "tag": "Lifestyle",
-    "title": "The Art of Deliberate Living in a Hyper-Connected World",
-    "excerpt": "From finding silence in the digital noise that dominates my day, my approach to both life and rigorous academic research.",
-    "date": "October 12, 2024",
-    "readTime": "7 min read",
-    "href": "/blog/deliberate-living",
-    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80"
-  },
-  "grid": [
+  "posts": [
     {
-      "id": "post-2",
+      "id": "azure-horizon",
+      "slug": "azure-horizon",
+      "featured": true,
+      "heroPost": true,
+      "category": "Travel",
+      "tag": "Life & Travel",
+      "title": "Chasing the Azure Horizon: Lessons from the Mediterranean",
+      "subtitle": "A journey through Italy and the Greek Isles that changed how I see the world",
+      "excerpt": "Md. Asraful Sharker Nirob reflects on a summer spent between the ancient cobblestones of Italy and the sapphire waters of the Greek Isles.",
+      "body": [
+        { "type": "paragraph", "content": "There is a particular quality of light in Santorini that I've never encountered anywhere else on Earth. It arrives in the early morning, around six, slanting gold across whitewashed walls and cascading bougainvillea. It turns the Aegean from steel-blue to something almost violet. Standing on the caldera rim with a lukewarm coffee, I understood for the first time why painters spent their entire careers trying to capture this one sliver of the world." },
+        { "type": "heading", "content": "The Slow Art of Arrival" },
+        { "type": "paragraph", "content": "Modern travel has trained us to rush. We optimize itineraries, we chase landmarks, we photograph experiences before we've had them. My first week in Italy broke that pattern — not by design, but by necessity. A delayed train in Rome forced me to spend an unplanned afternoon in Trastevere. I wandered without agenda, stumbled into a courtyard where an old man was teaching his granddaughter to play a melody on a battered guitar. No landmark, no tick on a checklist. Just a real moment." },
+        { "type": "quote", "content": "The places worth knowing are rarely the ones you planned to visit. They are the ones you stumble into when plans fall apart.", "author": "Reflection from the journey" },
+        { "type": "heading", "content": "What the Water Teaches" },
+        { "type": "paragraph", "content": "The Greek Isles are, at their core, a lesson in impermanence. Civilizations rose and collapsed on these rocky shores. The Minoans, the Mycenaeans, the Byzantines — each left their mark and then receded into the sea of history. Floating in the warm waters of the Ionian, looking up at cliffs that have stood for millennia, you feel the particular humility of being a very small thing in a very long story." },
+        { "type": "paragraph", "content": "I returned with more questions than answers. That, I've decided, is the true measure of a journey well-taken. The destinations that leave you certain of everything have given you nothing. The ones that quietly dismantle your assumptions — those are the ones that change you." },
+        { "type": "heading", "content": "Bringing It Back to Research" },
+        { "type": "paragraph", "content": "There is a direct line, I believe, between the practice of travel and the practice of research. Both require you to enter unfamiliar territory with genuine curiosity rather than predetermined conclusions. Both reward patience and punish haste. And both occasionally deliver a moment of genuine surprise — the kind that reorients everything you thought you understood." }
+      ],
+      "date": "2024-10-15",
+      "dateFormatted": "October 15, 2024",
+      "readTime": "9 min read",
+      "wordCount": 1840,
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80",
+      "imageAlt": "Azure Mediterranean coastline at golden hour",
+      "tags": ["Travel", "Mediterranean", "Italy", "Greece", "Reflection"],
+      "seo": {
+        "title": "Chasing the Azure Horizon: Lessons from the Mediterranean — Asraful Sharker",
+        "description": "A reflective journey through Italy and the Greek Isles — exploring how travel and research share the same core discipline of genuine curiosity.",
+        "keywords": ["Mediterranean travel", "Italy travel blog", "Greek Isles", "slow travel"],
+        "ogImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/azure-horizon"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["tourist-trail", "deliberate-living", "solitude-3000"]
+    },
+    {
+      "id": "deliberate-living",
+      "slug": "deliberate-living",
+      "featured": true,
+      "heroPost": false,
+      "category": "Lifestyle",
+      "tag": "Lifestyle",
+      "title": "The Art of Deliberate Living in a Hyper-Connected World",
+      "subtitle": "Finding signal in a world engineered for noise",
+      "excerpt": "From finding silence in the digital noise that dominates my day, my approach to both life and rigorous academic research.",
+      "body": [
+        { "type": "paragraph", "content": "I deleted social media from my phone on a Tuesday. Not dramatically, not as part of a detox challenge — just quietly, the way you might clear old papers from a desk. What followed was not the peace I expected. The first three days were strange, almost itchy. I reached for my phone with the phantom muscle memory of someone who had spent years doing so." },
+        { "type": "heading", "content": "The Attention Economy and the Researcher's Mind" },
+        { "type": "paragraph", "content": "Research demands a quality of attention that the modern internet is specifically designed to destroy. Deep work — the kind required to push a field forward — requires holding a complex problem in your head for extended periods. Every notification, every scroll, every autoplay video is engineered to interrupt exactly that process. The tools we've built for connection have made genuine concentration a luxury." },
+        { "type": "quote", "content": "You cannot think deeply about something you are only half-attending to. Depth requires the courage to be bored.", "author": "Personal notes, 2023" },
+        { "type": "heading", "content": "Building a Practice of Intentionality" },
+        { "type": "paragraph", "content": "What I've found after two years of deliberate effort: the things worth doing rarely announce themselves. They emerge in the gaps — the walks without headphones, the meals without screens, the mornings given to a single task rather than fifteen. Deliberate living isn't about doing less. It's about doing things completely." },
+        { "type": "paragraph", "content": "My mornings now begin with forty minutes of uninterrupted reading — nothing digital, nothing urgent. It sounds trivial. The compounding effect over a year is not trivial at all." }
+      ],
+      "date": "2024-10-12",
+      "dateFormatted": "October 12, 2024",
+      "readTime": "7 min read",
+      "wordCount": 1340,
+      "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80",
+      "imageAlt": "Laptop and coffee on a clean desk",
+      "tags": ["Lifestyle", "Productivity", "Focus", "Digital Minimalism"],
+      "seo": {
+        "title": "The Art of Deliberate Living in a Hyper-Connected World — Asraful Sharker",
+        "description": "How to reclaim your attention and build a practice of intentional living alongside demanding research work.",
+        "keywords": ["deliberate living", "digital minimalism", "deep work", "focus"],
+        "ogImage": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/deliberate-living"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["journal-flights", "minimalism-ai", "azure-horizon"]
+    },
+    {
+      "id": "market-shifts",
+      "slug": "market-shifts",
+      "featured": false,
+      "heroPost": false,
+      "category": "New Science",
       "tag": "New Science",
       "title": "Decoding Global Market Shifts",
+      "subtitle": "What emerging economic patterns mean for technology investment",
       "excerpt": "Deep dive into the emerging economic trends and their implications for the technology sector.",
-      "date": "October 08, 2024",
+      "body": [
+        { "type": "paragraph", "content": "The relationship between macroeconomic policy and technology sector performance has rarely been more complex — or more consequential. As central banks navigate the aftermath of extraordinary monetary expansion, the signals embedded in market data are unusually rich, and unusually difficult to read." },
+        { "type": "heading", "content": "Reading the Signal Through the Noise" },
+        { "type": "paragraph", "content": "Three patterns have emerged with enough consistency over the past eighteen months to warrant serious attention. First, the bifurcation between AI-adjacent equities and the broader technology index has accelerated beyond what fundamentals alone can explain. Second, capital allocation patterns from institutional investors suggest a longer-than-usual time horizon. Third, the geographic distribution of R&D investment is shifting in ways that will reshape competitive dynamics for the next decade." },
+        { "type": "quote", "content": "Markets are never just about money. They are collective expressions of what a society believes about its future.", "author": "Research notes" },
+        { "type": "paragraph", "content": "The researcher's instinct is to resist simple narratives. The data here resists them too — which is itself meaningful. When a system is genuinely transitional, the old frameworks stop fitting cleanly. That discomfort is information." }
+      ],
+      "date": "2024-10-08",
+      "dateFormatted": "October 08, 2024",
       "readTime": "5 min read",
-      "href": "/blog/market-shifts",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80"
+      "wordCount": 980,
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80",
+      "imageAlt": "Financial market data on screens",
+      "tags": ["Economics", "Technology", "Markets", "Research"],
+      "seo": {
+        "title": "Decoding Global Market Shifts — Asraful Sharker",
+        "description": "An analysis of emerging economic patterns and their structural implications for the global technology sector.",
+        "keywords": ["market analysis", "technology investment", "economic trends", "AI economics"],
+        "ogImage": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/market-shifts"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["minimalism-ai", "news-framework", "deliberate-living"]
     },
     {
-      "id": "post-3",
+      "id": "tourist-trail",
+      "slug": "tourist-trail",
+      "featured": false,
+      "heroPost": false,
+      "category": "Travel",
       "tag": "Travel",
       "title": "Beyond the Tourist Trail",
-      "excerpt": "Discovering the hidden gem of the Amalfi Coast that aren't in any guidebook.",
-      "date": "October 05, 2024",
+      "subtitle": "The hidden Amalfi Coast that guidebooks haven't found yet",
+      "excerpt": "Discovering the hidden gems of the Amalfi Coast that aren't in any guidebook.",
+      "body": [
+        { "type": "paragraph", "content": "The Amalfi Coast is simultaneously one of the most beautiful and most over-touristed places on Earth. The famous towns — Positano, Ravello, Amalfi itself — are spectacular and genuinely difficult to enjoy when you are sharing them with several thousand other people who had the same idea. The solution, as locals have always known, is to walk." },
+        { "type": "heading", "content": "The Path of the Gods" },
+        { "type": "paragraph", "content": "The Sentiero degli Dei — the Path of the Gods — runs along the ridge above the coast and delivers views that make the famous coastal road look modest by comparison. More importantly, it delivers them in near-solitude. Most tourists don't want to walk uphill for an hour to reach a trailhead. This is excellent news for those who do." },
+        { "type": "quote", "content": "Every famous place has a version of itself that exists just slightly out of reach of the obvious. Finding it requires only the willingness to be slightly inconvenienced.", "author": "Travel journal, August 2024" },
+        { "type": "paragraph", "content": "I spent an afternoon on a terrace above the village of Praiano that I found entirely by accident — a small bar with three plastic chairs and a view that would sell for millions as a painting. The owner brought me a glass of local wine without being asked. I stayed for two hours." }
+      ],
+      "date": "2024-10-05",
+      "dateFormatted": "October 05, 2024",
       "readTime": "6 min read",
-      "href": "/blog/tourist-trail",
-      "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=600&q=80"
+      "wordCount": 1120,
+      "image": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=600&q=80",
+      "imageAlt": "Colorful hillside village on the Amalfi Coast",
+      "tags": ["Travel", "Italy", "Amalfi Coast", "Hidden Gems"],
+      "seo": {
+        "title": "Beyond the Tourist Trail: Hidden Amalfi Coast — Asraful Sharker",
+        "description": "How to experience the Amalfi Coast beyond its famous towns — the trails, villages, and viewpoints that guidebooks haven't discovered.",
+        "keywords": ["Amalfi Coast", "off the beaten path", "Italy travel", "hidden gems"],
+        "ogImage": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/tourist-trail"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["azure-horizon", "solitude-3000", "deliberate-living"]
     },
     {
-      "id": "post-4",
+      "id": "minimalism-ai",
+      "slug": "minimalism-ai",
+      "featured": false,
+      "heroPost": false,
+      "category": "Personal Reflections",
       "tag": "Personal Reflections",
       "title": "The Philosophy of Minimalism in Modern AI",
+      "subtitle": "Less is more — or is it? Examining the paradox of simplicity in complex systems",
       "excerpt": "Less is more — or is it? Examining the paradox of simplicity in complex systems.",
-      "date": "October 01, 2024",
+      "body": [
+        { "type": "paragraph", "content": "The most sophisticated AI systems of this moment are, in one sense, maximalist objects — billions of parameters, petabytes of training data, enormous computational footprints. And yet the outputs we find most remarkable are often characterized by an apparent effortlessness, an economy of expression that suggests, paradoxically, simplicity." },
+        { "type": "heading", "content": "Compression as Intelligence" },
+        { "type": "paragraph", "content": "There is a serious argument — I find it compelling — that intelligence is fundamentally a compression problem. The most intelligent response to a complex question is not the most exhaustive one. It is the one that identifies the smallest set of ideas that captures the most meaning." },
+        { "type": "quote", "content": "Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away.", "author": "Antoine de Saint-Exupéry" },
+        { "type": "paragraph", "content": "The practical implication for AI research: we may be at a point where the returns to scale are beginning to diminish, and the next frontier is not more parameters but better principles. The most interesting papers I've read this year are not about making models larger. They are about making them more principled." }
+      ],
+      "date": "2024-10-01",
+      "dateFormatted": "October 01, 2024",
       "readTime": "4 min read",
-      "href": "/blog/minimalism-ai",
-      "image": null
+      "wordCount": 790,
+      "image": null,
+      "imageAlt": null,
+      "tags": ["AI", "Minimalism", "Philosophy", "Machine Learning"],
+      "seo": {
+        "title": "The Philosophy of Minimalism in Modern AI — Asraful Sharker",
+        "description": "Exploring the paradox of simplicity in increasingly complex AI systems.",
+        "keywords": ["AI minimalism", "machine learning philosophy", "LLM research"],
+        "ogImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/minimalism-ai"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["market-shifts", "deliberate-living", "news-framework"]
     },
     {
-      "id": "post-5",
+      "id": "journal-flights",
+      "slug": "journal-flights",
+      "featured": false,
+      "heroPost": false,
+      "category": "Lifestyle",
       "tag": "Lifestyle",
-      "title": "Why I Still Kept a Physical Journal on Flights",
+      "title": "Why I Still Keep a Physical Journal on Flights",
+      "subtitle": "There's something irreplaceable about pen and paper at 35,000 feet",
       "excerpt": "There's something irreplaceable about pen and paper at 35,000 feet.",
-      "date": "September 28, 2024",
+      "body": [
+        { "type": "paragraph", "content": "I carry a Leuchtturm1917 notebook on every flight. Medium-sized, dotted pages, navy blue. It has survived eleven time zones, two checked-bag disasters, and one very turbulent crossing of the North Atlantic." },
+        { "type": "heading", "content": "The Altitude Effect" },
+        { "type": "paragraph", "content": "There is something about being at 35,000 feet that clarifies thinking in a way I haven't been able to replicate on the ground. The enforced disconnection helps. So does the strange suspension of normal time — you are between places, between responsibilities, belonging temporarily to neither." },
+        { "type": "quote", "content": "The best thinking happens in transition. When you are between things, you can see both more clearly.", "author": "Flight journal, November 2023" },
+        { "type": "paragraph", "content": "The analog format matters more than I initially understood. Writing by hand is slower — which turns out to be a feature rather than a bug. Digital writing encourages volume. Handwriting encourages precision." }
+      ],
+      "date": "2024-09-28",
+      "dateFormatted": "September 28, 2024",
       "readTime": "3 min read",
-      "href": "/blog/journal-flights",
-      "image": null
+      "wordCount": 610,
+      "image": null,
+      "imageAlt": null,
+      "tags": ["Lifestyle", "Writing", "Journaling", "Travel"],
+      "seo": {
+        "title": "Why I Still Keep a Physical Journal on Flights — Asraful Sharker",
+        "description": "On the value of analog writing in a digital world, and why altitude creates unusual clarity of thought.",
+        "keywords": ["journaling", "analog writing", "travel habits", "creativity"],
+        "ogImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/journal-flights"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["deliberate-living", "azure-horizon", "tourist-trail"]
     },
     {
-      "id": "post-6",
+      "id": "news-framework",
+      "slug": "news-framework",
+      "featured": false,
+      "heroPost": false,
+      "category": "New Science",
       "tag": "New Science",
       "title": "Analyzing the News: A Researcher's Framework",
+      "subtitle": "How I read media critically — and what I look for between the lines",
       "excerpt": "How I read media critically — and what I look for between the lines.",
-      "date": "September 22, 2024",
+      "body": [
+        { "type": "paragraph", "content": "A researcher's relationship with media is necessarily complicated. The same critical apparatus that makes you useful in a laboratory — the instinct to question methodology, to look for confounding variables, to demand evidence proportional to the claim — can make casual news consumption a somewhat exhausting experience." },
+        { "type": "heading", "content": "The Framework I've Settled On" },
+        { "type": "paragraph", "content": "After years of trying various approaches, I've simplified to three questions I ask of any significant news story. First: what is the evidence base, and what is the gap between the evidence and the claim? Second: who benefits from this particular framing, and what alternative framings exist? Third: what would have to be true for this story to be wrong?" },
+        { "type": "quote", "content": "The most dangerous stories are not the ones that are entirely false. They are the ones that are true in a technically accurate but deeply misleading way.", "author": "Research seminar notes" },
+        { "type": "heading", "content": "On Information Diet" },
+        { "type": "paragraph", "content": "The volume of information available has grown exponentially; the time available to process it has not. The rational response is curation, not consumption. I now read fewer sources more carefully, and I've found that the reduction in quantity has produced a significant improvement in my actual understanding of events." }
+      ],
+      "date": "2024-09-22",
+      "dateFormatted": "September 22, 2024",
       "readTime": "8 min read",
-      "href": "/blog/news-framework",
-      "image": null
-    }
-  ],
-  "archive": [
+      "wordCount": 1590,
+      "image": null,
+      "imageAlt": null,
+      "tags": ["Media Literacy", "Critical Thinking", "Research Methods"],
+      "seo": {
+        "title": "Analyzing the News: A Researcher's Framework — Asraful Sharker",
+        "description": "A practical framework for reading news critically, developed through years of academic research.",
+        "keywords": ["media literacy", "critical thinking", "news analysis", "research methodology"],
+        "ogImage": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/news-framework"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["minimalism-ai", "market-shifts", "deliberate-living"]
+    },
     {
-      "id": "arc-1",
+      "id": "solitude-3000",
+      "slug": "solitude-3000",
+      "featured": false,
+      "heroPost": false,
+      "category": "Travel",
       "tag": "Travel",
       "title": "Solitude at 3,000 Meters",
-      "date": "Aug 2024",
-      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=400&q=80",
-      "href": "/blog/solitude-3000"
+      "subtitle": "What the mountains teach you when you stop trying to learn",
+      "excerpt": "A week alone in the high Alps — what silence sounds like, and what it says.",
+      "body": [
+        { "type": "paragraph", "content": "The hut at 3,000 meters had no wifi, intermittent electricity, and a guardian who spoke only French and a little Italian. The food was simple. The view was not. I had come for solitude and found something subtly different — a quality of presence that solitude makes possible but doesn't guarantee." },
+        { "type": "heading", "content": "The Sound of Silence" },
+        { "type": "paragraph", "content": "High altitude silence is not actually silent. There is wind, and the sound of your own breathing, and at dawn, birdsong that seems impossibly clear. What is absent is the layered hum of human infrastructure — the frequencies we have built around ourselves and learned not to hear." },
+        { "type": "quote", "content": "You go to the mountains expecting spectacular views. What you find, if you stay long enough, is spectacular quiet.", "author": "Alpine hut journal, August 2024" },
+        { "type": "paragraph", "content": "I came down after five days with a notebook full of ideas and a renewed tolerance for problems that don't resolve quickly. The mountains have no interest in your timeline." }
+      ],
+      "date": "2024-08-14",
+      "dateFormatted": "August 14, 2024",
+      "readTime": "5 min read",
+      "wordCount": 920,
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80",
+      "imageAlt": "Snow-capped mountain peaks at high altitude",
+      "tags": ["Travel", "Mountains", "Solitude", "Nature"],
+      "seo": {
+        "title": "Solitude at 3,000 Meters — Asraful Sharker",
+        "description": "Five days alone in the high Alps, and what genuine solitude reveals about thinking and creativity.",
+        "keywords": ["mountain solitude", "Alps travel", "nature writing", "solo travel"],
+        "ogImage": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/solitude-3000"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["azure-horizon", "tourist-trail", "journal-flights"]
     },
     {
-      "id": "arc-2",
+      "id": "remote-research",
+      "slug": "remote-research",
+      "featured": false,
+      "heroPost": false,
+      "category": "New Science",
       "tag": "New Science",
       "title": "The Future of Remote Research Connections",
-      "date": "Jul 2024",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80",
-      "href": "/blog/remote-research"
+      "subtitle": "How distributed teams are redefining academic collaboration",
+      "excerpt": "How distributed academic teams are building stronger connections across continents.",
+      "body": [
+        { "type": "paragraph", "content": "The pandemic forced a rapid and largely unplanned experiment in remote academic collaboration. Three years on, we can begin to evaluate the results with some clarity. The findings are more nuanced than either the optimists or the pessimists predicted." },
+        { "type": "heading", "content": "What Remote Collaboration Does Well" },
+        { "type": "paragraph", "content": "Asynchronous collaboration has genuine advantages for certain types of research work. The considered response — written after genuine reflection rather than offered in real time — is often a better response. Time zone differences, frequently cited as a friction, can function as a feature." },
+        { "type": "quote", "content": "The best research collaborations I've been part of in the last two years have all been partially or fully remote. This surprised me. I've had to update my priors.", "author": "Research seminar, 2024" },
+        { "type": "paragraph", "content": "What is genuinely lost in the absence of physical co-location is harder to quantify: the hallway conversation, the whiteboard session, the dinner where the actual breakthrough happens. Hybrid models seem the most productive compromise." }
+      ],
+      "date": "2024-07-20",
+      "dateFormatted": "July 20, 2024",
+      "readTime": "6 min read",
+      "wordCount": 1080,
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+      "imageAlt": "Technology circuit board representing remote connectivity",
+      "tags": ["Research", "Remote Work", "Academic Collaboration"],
+      "seo": {
+        "title": "The Future of Remote Research Connections — Asraful Sharker",
+        "description": "An evaluation of remote academic collaboration three years after the pandemic.",
+        "keywords": ["remote research", "academic collaboration", "distributed teams"],
+        "ogImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/remote-research"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["minimalism-ai", "deliberate-living", "news-framework"]
     },
     {
-      "id": "arc-3",
+      "id": "city-lights",
+      "slug": "city-lights",
+      "featured": false,
+      "heroPost": false,
+      "category": "Lifestyle",
       "tag": "Lifestyle",
       "title": "Late Nights and City Lights: A Reflection",
-      "date": "Jun 2024",
-      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80",
-      "href": "/blog/city-lights"
+      "subtitle": "On the particular beauty of cities after midnight",
+      "excerpt": "On the particular beauty of cities after midnight, and what they reveal about themselves.",
+      "body": [
+        { "type": "paragraph", "content": "Cities reveal themselves differently after midnight. The commercial mask comes off. What remains is infrastructure and the people who inhabit the margins of the day — cleaners, night-shift workers, insomniacs, writers finishing late." },
+        { "type": "heading", "content": "The City as Text" },
+        { "type": "paragraph", "content": "I've developed a habit of walking unfamiliar cities late at night. You see what the city does when it thinks no one is watching. You encounter the infrastructure of daily life: the delivery drivers, the kitchen staff finishing their shifts, the small restaurants serving those who work when others sleep." },
+        { "type": "quote", "content": "The city after midnight is the city without its performance. What you find there is closer to the truth.", "author": "City journal, June 2024" }
+      ],
+      "date": "2024-06-18",
+      "dateFormatted": "June 18, 2024",
+      "readTime": "4 min read",
+      "wordCount": 740,
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80",
+      "imageAlt": "City skyline illuminated at night",
+      "tags": ["Lifestyle", "Urban", "Night", "City Life"],
+      "seo": {
+        "title": "Late Nights and City Lights: A Reflection — Asraful Sharker",
+        "description": "On the particular honesty of cities after midnight.",
+        "keywords": ["city life", "urban exploration", "lifestyle reflection"],
+        "ogImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/city-lights"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["deliberate-living", "journal-flights", "azure-horizon"]
     },
     {
-      "id": "arc-4",
+      "id": "analog-form",
+      "slug": "analog-form",
+      "featured": false,
+      "heroPost": false,
+      "category": "Personal Reflections",
       "tag": "Personal Reflections",
-      "title": "Why Analog Form Still Matter",
-      "date": "May 2024",
-      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=400&q=80",
-      "href": "/blog/analog-form"
+      "title": "Why Analog Forms Still Matter",
+      "subtitle": "The enduring value of physical artifacts in a digital world",
+      "excerpt": "The enduring argument for physical objects, handwritten notes, and the things that can't be synced to the cloud.",
+      "body": [
+        { "type": "paragraph", "content": "I have a folder of handwritten letters from my graduate supervisor that I will keep for the rest of my life. Not because the information they contain couldn't have been communicated digitally, but because the handwriting carries something no email can: the trace of another mind moving through a problem in real time." },
+        { "type": "heading", "content": "The Texture of Things" },
+        { "type": "paragraph", "content": "There is a cognitive argument for physical artifacts that has been substantially validated by recent research in embodied cognition. We think differently when we interact with the physical world — when we write by hand, when we hold a book rather than reading a screen." },
+        { "type": "quote", "content": "The digital world is frictionless by design. Friction, it turns out, is where a lot of thinking happens.", "author": "Personal notes" },
+        { "type": "paragraph", "content": "I'm not arguing for a wholesale retreat from digital tools. I'm arguing for a more intentional relationship with physical ones. The notebook on the desk, the letter written by hand, the book with margins filled: these are cognitive technologies that do things digital tools don't." }
+      ],
+      "date": "2024-05-30",
+      "dateFormatted": "May 30, 2024",
+      "readTime": "5 min read",
+      "wordCount": 870,
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80",
+      "imageAlt": "Pen and paper notebook on a desk",
+      "tags": ["Personal Reflections", "Analog", "Writing", "Cognition"],
+      "seo": {
+        "title": "Why Analog Forms Still Matter — Asraful Sharker",
+        "description": "The cognitive and emotional argument for physical artifacts and handwriting.",
+        "keywords": ["analog writing", "physical journals", "embodied cognition", "handwriting"],
+        "ogImage": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&q=80",
+        "canonical": "https://asrafulsharker.ai/blog/analog-form"
+      },
+      "author": {
+        "name": "Md. Asraful Sharker Nirob",
+        "role": "AI Researcher & Writer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&q=80"
+      },
+      "relatedIds": ["journal-flights", "deliberate-living", "minimalism-ai"]
     }
   ]
 }

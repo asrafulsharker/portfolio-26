@@ -51,7 +51,7 @@
     "logo": "Asraful Sharker",
     "links": [
       { "label": "Home", "href": "#home" },
-      { "label": "Research", "href": "#research" },
+      { "label": "Publications", "href": "#publications" },
       { "label": "Gallery", "href": "#gallery" },
       { "label": "Insights", "href": "#insights" },
       { "label": "Contact", "href": "#contact" }
@@ -73,7 +73,7 @@
     "cta": [
       {
         "label": "View Publications",
-        "href": "#research",
+        "href": "/publications",
         "variant": "primary"
       },
       {

@@ -11,7 +11,7 @@ const NAV_DATA = {
   links: [
     { label: 'Home',         href: '/' },
     { label: 'About',        href: '/about' },
-    { label: 'Research',     href: '/research' },
+    // { label: 'Research',     href: '/research' },
     { label: 'Gallery',      href: '/gallery' },
     { label: 'Publications', href: '/publications' },
     { label: 'Contact',      href: '/contact' },
