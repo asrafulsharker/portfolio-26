@@ -181,8 +181,11 @@ export default function BlogPage() {
   const visibleArchive = archive.slice(archiveIdx, archiveIdx + 4);
 
   return (
-    <div className={styles.page}>
+    <div>
               <NavForFullPage/>
+
+    
+    <div className={styles.page}>
 
       {/* Hero */}
       <Hero data={hero} />
@@ -250,6 +253,7 @@ export default function BlogPage() {
         </div>
 
       </div>
+    </div>
     </div>
   );
 }
